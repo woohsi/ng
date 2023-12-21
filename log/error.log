@@ -1,0 +1,22 @@
+2023/12/21 14:51:30 [notice] 1#1: using the "epoll" event method
+2023/12/21 14:51:30 [notice] 1#1: nginx/1.25.3
+2023/12/21 14:51:30 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 14:51:30 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2023/12/21 14:51:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 14:51:30 [notice] 1#1: start worker processes
+2023/12/21 14:51:30 [notice] 1#1: start worker process 29
+2023/12/21 14:51:30 [notice] 1#1: start worker process 30
+2023/12/21 14:51:30 [notice] 1#1: start worker process 31
+2023/12/21 14:51:30 [notice] 1#1: start worker process 32
+2023/12/21 14:51:30 [notice] 1#1: start worker process 33
+2023/12/21 14:51:30 [notice] 1#1: start worker process 34
+2023/12/21 14:51:30 [notice] 1#1: start worker process 35
+2023/12/21 14:51:30 [notice] 1#1: start worker process 36
+2023/12/21 14:52:10 [error] 31#31: *1 open() "/usr/share/nginx/html/fruits/1" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /fruits/1 HTTP/1.1", host: "ip172-18-0-33-cm231bio7r5g00c8qphg-80.direct.labs.play-with-docker.com"
+2023/12/21 14:53:57 [emerg] 1#1: unknown directive "gzin" in /etc/nginx/nginx.conf:13
+2023/12/21 14:56:17 [emerg] 1#1: invalid location modifier "~^" in /etc/nginx/nginx.conf:17
+2023/12/21 14:58:54 [error] 22#22: *1 open() "/usr/share/nginx/html/fruits/1" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /carbs/1 HTTP/1.1", host: "ip172-18-0-33-cm231bio7r5g00c8qphg-80.direct.labs.play-with-docker.com"
+2023/12/21 14:59:02 [error] 22#22: *1 open() "/usr/share/nginx/html/carbs" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /carbs HTTP/1.1", host: "ip172-18-0-33-cm231bio7r5g00c8qphg-80.direct.labs.play-with-docker.com"
+2023/12/21 14:59:38 [error] 23#23: *1 open() "/usr/share/nginx/html/carbs" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /carbs HTTP/1.1", host: "ip172-18-0-33-cm231bio7r5g00c8qphg-80.direct.labs.play-with-docker.com"
+2023/12/21 14:59:41 [error] 23#23: *1 open() "/usr/share/nginx/html/carbs" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /carbs HTTP/1.1", host: "ip172-18-0-33-cm231bio7r5g00c8qphg-80.direct.labs.play-with-docker.com"
+2023/12/21 14:59:43 [error] 23#23: *1 open() "/usr/share/nginx/html/carbs" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /carbs HTTP/1.1", host: "ip172-18-0-33-cm231bio7r5g00c8qphg-80.direct.labs.play-with-docker.com"
